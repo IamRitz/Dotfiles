@@ -1,0 +1,641 @@
+    1  sudo setfont ter-132n
+    2  sudo pacman -S terminus-font
+    3  sudo setfont ter-132n
+    4  clear
+    5  sudo vim /etc/default/grub 
+    6  clear
+    7  clear
+    8  timedatectl set-ntp true
+    9  sudo hwclock --systohc
+   10  sudo reflector -c India -a 6 --sort rate --save /etc/pacman.d/mirrorlist 
+   11  sudo pacman -Syy
+   12  sudo reflector -c India -a 6 --sort rate --save /etc/pacman.d/mirrorlist 
+   13  sudo pacman -S rsync
+   14  sudo reflector -c India -a 6 --sort rate --save /etc/pacman.d/mirrorlist 
+   15  sudo pacman -Syy
+   16  sudo pacman -S bash-completion
+   17  clear
+   18  sudo systemctl enable --now reflector.timer
+   19  sudo systemctl enable --now fstrim.timer
+   20  clear
+   21  sudo pacman -S xorg i3 dmenu lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings ttf-dejavu ttf-liberation noto-fonts firefox nitrogen picom lxappearance pcmanfm materia-gtk-theme papirus-icon-theme xcfe4-terminal
+   22  sudo pacman -S xorg i3 dmenu lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings ttf-dejavu ttf-liberation noto-fonts firefox nitrogen picom lxappearance pcmanfm materia-gtk-theme papirus-icon-theme xfce4-terminal
+   23  sudo vim /etc/lightdm/lightdm.conf 
+   24  clear
+   25  sudo systemctl enable lightdm
+   26  sudo pacman -S archlinux-wallpaper
+   27  reboot
+   28  xrandr 
+   29  xrandr --output Virtual1 --mode 2560x1600
+   30  clear
+   31  clear
+   32  setfont ter-132n
+   33  clear
+   34  vim ~/.config/i3/config 
+   35  clear
+   36  clear
+   37  ll
+   38  clear
+   39  l
+   40  ll
+   41  vim ~/.config/i3/config 
+   42  clear
+   43  clear
+   44  sudo lightdm-gtk-greeter-settings
+   45  clear
+   46  sudo vim /etc/xdg/picom.conf 
+   47  clear
+   48  lll
+   49  clear
+   50  vim ~/.config/i3/config 
+   51  clear
+   52  clear
+   53  shutdown -h now
+   54  vim ~/.Xresources
+   55  vim ~/.Xresources
+   56  vim ~/.Xresources
+   57  clear
+   58  clear
+   59  vim ~/.profile
+   60  clear
+   61  clear
+   62  vim .profile 
+   63  vim .profile 
+   64  source ~/.xpro
+   65  source ~/.profile
+   66  echo $PATH
+   67  clear
+   68  cd Downloads
+   69  ranger
+   70  pacman -S ranger
+   71  sudo pacman -S ranger
+   72  clear
+   73  ranger
+   74  vim ~/.config/i3/config 
+   75  clear
+   76  sudo pacman -S starship 
+   77  vim ~/.config/starship.toml
+   78  vim /etc/X11/xorg.conf.d/90-touchpad.conf
+   79  sudo ~~
+   80  sudo /etc/X11/xorg.conf.d/90-touchpad.conf
+   81  sudo vim /etc/X11/xorg.conf.d/90-touchpad.conf
+   82  clear
+   83  vim ~/.config/starship.toml
+   84  clear
+   85  vim ~/.bashrc 
+   86  clear
+   87  source ~/.bashrc
+   88  clear
+   89  cd
+   90  clear
+   91  ranger
+   92  clear
+   93  vim ~/.config/i3/config 
+   94  clear
+   95  vim ~/.config/i3/config 
+   96  clear
+   97  clear
+   98  cmatrix
+   99  clear
+  100  clear
+  101  touch ~/.config/alacritty/alacritty.yml
+  102  mkdir ~/.config/alacritty
+  103  touch ~/.config/alacritty/alacritty.yml
+  104  set -o vi
+  105  vim ~/.config/alacritty/alacritty.yml
+  106  alacritty migrate
+  107  clear
+  108  clear
+  109  cd Downloads/
+  110  clear
+  111  clear
+  112  exit
+  113  vim ~/.config/alacritty/alacritty.yml 
+  114  clear
+  115  vim ~/.config/alacritty/alacritty.yml 
+  116  mv ~/.config/alacritty/alacritty.{yml,toml}
+  117  clear
+  118  vim ~/.bashrc
+  119  sbr
+  120  source ~/.bashrc
+  121  ba
+  122  clear
+  123  sbr
+  124  clear
+  125  al
+  126  clear
+  127  df -h
+  128  clear
+  129  ll
+  130  ba
+  131  al
+  132  clear
+  133  clear
+  134  clear
+  135  systemd-notify
+  136  clear
+  137  al
+  138  al
+  139  clear
+  140  exit
+  141  i3
+  142  ic
+  143  clear
+  144  3c
+  145  ba
+  146  clear
+  147  sbr
+  148  clear
+  149  3c
+  150  clear
+  151  sudo /etc/default/gru
+  152  clear
+  153  sudo vim /etc/default/grub 
+  154  clear
+  155  ba
+  156  cd Downloa
+  157  cd Download
+  158  clear
+  159  sbr
+  160  cd Download
+  161  clear
+  162  cd Downloads/
+  163  clear
+  164  note
+  165  clear
+  166  ll
+  167  rofi
+  168  pacman -S rofi
+  169  sudo pacman -S rofi
+  170  clear
+  171  rofi
+  172  xev 
+  173  clear
+  174  xev | grep keycode
+  175  clear
+  176  cd Downloads/Programs
+  177  cd Downloads/
+  178  mkdir Programs
+  179  clear
+  180  cd Programs/
+  181  git clone https://github.com/lr-tech/rofi-themes-collection.git
+  182  cd rofi-themes-collection
+  183  clear
+  184  mkdir -p ~/.local/share/rofi/themes/
+  185  cp themes/nord-oneline.rasi ~/.local/share/rofi/themes/
+  186  locate rofi-theme-selector
+  187  sudo pacman -S mlocate
+  188  clear
+  189  locate rofi-theme-selector
+  190  ranger
+  191  clear
+  192  rofi-theme-selector 
+  193  rofi-theme-selector 
+  194  cp themes/* ~/.local/share/rofi/themes/
+  195  clear
+  196  3c 
+  197  clear
+  198  yay -S brave-bin
+  199  cd Downloads/Programs/
+  200  sudo pacman -S --needed git base-devel
+  201  git clone https://aur.archlinux.org/yay.git
+  202  cd yay
+  203  makepkg -si
+  204  clea
+  205  clear
+  206  yay -S brave-bin
+  207  clear
+  208  clear
+  209  clear
+  210  neofetch
+  211  ba
+  212  clear
+  213  sbrc
+  214  sbrcc
+  215  sbrc
+  216  sbr
+  217  clear
+  218  pacman -S neofetch
+  219  clear
+  220  ll
+  221  ba
+  222  sbr
+  223  clear
+  224  3c
+  225  clear
+  226  clear
+  227  cd Downloads/
+  228  ranger
+  229  clear
+  230  r
+  231  ba
+  232  clear
+  233  i3-config-wizard 
+  234  clear
+  235  clear
+  236  clear
+  237  i3lock 
+  238  xprop
+  239  cat ~/.Xresources 
+  240  cat ~/.profile 
+  241  3c
+  242  clear
+  243  3c
+  244  pacman -S spotify-launcher
+  245  clear
+  246  xprop
+  247  3c
+  248  clear
+  249  mkdir ~/.fonts
+  250  cp fa-regular-400.ttf ~/.fonts/
+  251  clear
+  252  cd Downloads/Programs/
+  253  git clone [200~https://github.com/FortAwesome/Font-Awesome.giT
+  254  git clone https://github.com/FortAwesome/Font-Awesome.git
+  255  cd Font-Awesome/
+  256  ranger
+  257  ranger
+  258  fc-cache -f -v
+  259  clear
+  260  ls ~/.fonts/
+  261  rm -rf ~/.fonts/fa-regular-400.ttf 
+  262  clear
+  263  pacman -S ttf-font-awesome 
+  264  clear
+  265  xprop
+  266  3c
+  267  ls -l Downloads/wallpapers/
+  268  xset
+  269  clear
+  270  3c
+  271  tldr
+  272  pacman -S tldr
+  273  clear
+  274  tldr i3lock
+  275  cd Downloads/Programs/
+  276  clear
+  277  git clone https://github.com/D3Ext/aesthetic-wallpapers.git
+  278  clear
+  279  tldr i3locks
+  280  tldr i3lock
+  281  man i3lock
+  282  man i3lock
+  283  clear
+  284  xrandr
+  285  clear
+  286  man i3lock
+  287  clear
+  288  yay i3lockmore
+  289  clear
+  290  i3lockmore
+  291  yay i3lockmore
+  292  yay -S i3lockmore
+  293  yay -S i3lockmore-git
+  294  clear
+  295  i3lockmore
+  296  i3lockmore -i ../wallpapers/arch-nord-dark.png --scale
+  297  man i3lockmore
+  298  man i3lockmore
+  299  man i3lockmore
+  300  pacman -S ttf-fira-code
+  301  clear
+  302  fc-list
+  303  fc-list | grep Fira
+  304  clear
+  305  fc-list | grep Fira
+  306  fc-list
+  307  clear
+  308  fc-list | grep Fira
+  309  clear
+  310  3c
+  311  3c
+  312  3c
+  313  3c
+  314  3c
+  315  clear
+  316  3c
+  317  3c
+  318  al
+  319  shutdown -h now
+  320  3c
+  321  3c
+  322  3c
+  323  clear
+  324  3c
+  325  al
+  326  3c
+  327  3c
+  328  3c
+  329  al
+  330  al
+  331  3c
+  332  al
+  333  3c
+  334  3c
+  335  3c
+  336  3c
+  337  3c
+  338  vim ~/.Xresource
+  339  vim ~/.Xresources 
+  340  clear
+  341  vim ~/.profile 
+  342  clear
+  343  cd Downloads/Programs/
+  344  clea
+  345  clear
+  346  git clone https://github.com/IamRitz/Dotfiles.git
+  347  pacman -S neovim
+  348  clear
+  349  cd Dotfiles/
+  350  la
+  351  ls ~/.viminfo 
+  352  cat ~/.viminfo 
+  353  vim ~/.viminfo 
+  354  clear
+  355  cp .vimrc ~/.vimrc
+  356  vim
+  357  nvim .vimrc 
+  358  clear
+  359  curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  360  clear
+  361  vim 
+  362  vim
+  363  clear
+  364  la
+  365  ls .config/
+  366  mv .config/nvim ~/.config/
+  367  clear
+  368  nvim
+  369  cd ~/.config/
+  370  cd n
+  371  cd nvim/
+  372  r
+  373  ranger
+  374  nvim
+  375  yay -S nvim-packer-git 
+  376  clear
+  377  nvim
+  378  nvim
+  379  git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+  380  sdo
+  381  update
+  382  clear
+  383  nvim
+  384  rs
+  385  clear
+  386  nvim
+  387  ping google.com
+  388  git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+  389  clear
+  390  nvim
+  391  cd ~/.config/nvimm
+  392  cd ~/.config/nvim
+  393  vim init.lua 
+  394  nvim
+  395  vim init.lua 
+  396  nvim
+  397  ll
+  398  nvim
+  399  nvim
+  400  clear
+  401  clear
+  402  clear
+  403  cmatrix
+  404  pacman -S cmatrix
+  405  clear
+  406  clear
+  407  cmatrx
+  408  clear
+  409  cmatrix
+  410  ls ~/.fonts/
+  411  fc-cache list
+  412  fc-list
+  413  fc-list | grep -i awesome
+  414  fc-list | grep Awesome
+  415  mv ~/.bashrc ~/.bashrc.bk
+  416  yay -S polybar
+  417  clear
+  418  clear
+  419  pacman -S polybar
+  420  clear
+  421  polybar
+  422  clear
+  423  cd .config
+  424  mkdir polybar
+  425  cp /usr/share/doc/polybar/examples/config.ini polybar/
+  426  cd polybar/
+  427  ls -l
+  428  clear
+  429  vim config.ini 
+  430  polybar
+  431  clear
+  432  3c
+  433  vim launch.sh
+  434  chmod +x launch.sh 
+  435  clear
+  436  3c
+  437  clear
+  438  clear
+  439  cd
+  440  clear
+  441  cd -
+  442  vim config.ini 
+  443  fc-match monospace;2
+  444  vim config.ini 
+  445  vim config.ini 
+  446  clear
+  447  cd
+  448  cd Downloads/Programs/
+  449  cd Dotfiles/
+  450  cp .bashrc ~/.bashrc
+  451  clear
+  452  curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  453  clear
+  454  vim ~/.bashrc
+  455  source ~/.bashrc
+  456  pacman -S fzf 
+  457  clear
+  458  r
+  459  ranger
+  460  clear
+  461  ll
+  462  clear
+  463  pacman -S exa
+  464  sudo vim /etc/pacman.d/mirrorlist 
+  465  clear
+  466  pacman -Sy exa
+  467  clear
+  468  ll
+  469  clear
+  470  la
+  471  l
+  472  ll
+  473  clear
+  474  3c
+  475  ba
+  476  al
+  477  pc
+  478  clear
+  479  ba
+  480  sbr
+  481  clear
+  482  vim ~/.bashrc.bk 
+  483  clear
+  484  l
+  485  ll
+  486  yay -Q nerd
+  487  yay -S nerd
+  488  clea
+  489  clear
+  490  cd .config/nvim/
+  491  nvin init.lua 
+  492  nvim init.lua 
+  493  clear
+  494  nvim
+  495  clear
+  496  ranger
+  497  3c
+  498  clear
+  499  shutdonw -h now
+  500  shutdown -h now
+  501  clear
+  502  yay -S nerd-fonts-complete
+  503  yay -S nerd-fonts-git 
+  504  clear
+  505  curl -sL https://github.com/ryanoasis/nerd-fonts/releases/latest | egrep -o "/ryanoasis/nerd-fonts/releases/download/.+\.zip" | sed 's/^/https:\/\/github.com/' > list.txt
+  506  vim list.txt 
+  507  curl -sL https://github.com/ryanoasis/nerd-fonts/releases/latest | grep -E "/ryanoasis/nerd-fonts/releases/download/.+\.zip" | sed 's/^/https:\/\/github.com/' > list.txt
+  508  ll
+  509  clear
+  510  curl -sL https://github.com/ryanoasis/nerd-fonts/releases/latest
+  511  curl -sL https://github.com/ryanoasis/nerd-fonts/releases/latest | grep zip
+  512  curl -sL https://github.com/ryanoasis/nerd-fonts/releases/latest | grep .zip
+  513  curl -sL https://github.com/ryanoasis/nerd-fonts/releases/latest > list.txt 
+  514  vim list.txt 
+  515  clear
+  516  curl -sL https://github.com/ryanoasis/nerd-fonts/releases/latest 
+  517  curl -sL https://github.com/ryanoasis/nerd-fonts/releases/latest  | grep href
+  518  clear
+  519  curl -L https://github.com/ryanoasis/nerd-fonts/releases/latest
+  520  curl -L https://github.com/ryanoasis/nerd-fonts/releases/latest | grep zip
+  521  clear
+  522  curl -Ls https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.3.0
+  523  curl -Ls https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.3.0 | grep zip
+  524  curl -Ls https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.3.0 > list.txt 
+  525  cd Downloads/
+  526  clear
+  527  mkdir fonts
+  528  mv *.zip fonts/
+  529  clear
+  530  cd fonts/
+  531  clear
+  532  ls ~/.fonts/
+  533  unzip "*.zip
+  534  unzip "*.zip" -d ~/.fonts
+  535  pacman -S zip
+  536  unzip
+  537  pacman -S unzip
+  538  clear
+  539  unzip "*.zip" -d ~/.fonts
+  540  clear
+  541  ls ~/.fonts/
+  542  ls ~/.fonts/ | less
+  543  clear
+  544  fc-cache -fv
+  545  clear
+  546  cd ..
+  547  rm -rf fonts/
+  548  clear
+  549  fc-list | cut -d: -f2 | sort | uniq
+  550  clear
+  551  fc-list | cut -d: -f2 | sort | uniq | grep  Fira
+  552  echo "The brow lazy fox went to the forest" | pango-view "Fira Code" /dev/stdin
+  553  echo "The brow lazy fox went to the forest" | pango-view --font "Fira Code" /dev/stdin
+  554  clear
+  555  nvim
+  556  clear
+  557  vim list.txt 
+  558  clear
+  559  nvim
+  560  clear
+  561  nvim list.txt 
+  562  3c
+  563  cd .config/nvim/
+  564  r
+  565  clear
+  566  vim init.lua 
+  567  clear
+  568  l
+  569  vim treesitter.lua 
+  570  clear
+  571  ranger
+  572  cd .config/ranger/
+  573  vim rc.conf
+  574  clear
+  575  vim ran
+  576  ranger
+  577  pacman -S sixel
+  578  yay -S sixel
+  579  vim rc.conf 
+  580  clear
+  581  ranger
+  582  clear
+  583  r
+  584  rc
+  585  vim ~/.bashrc
+  586  sbr
+  587  clear
+  588  ll
+  589  clear
+  590  r
+  591  pacman -S ueberzug
+  592  clear
+  593  r
+  594  rc
+  595  clear
+  596  r
+  597  clear
+  598  pl
+  599  alias | grep poly
+  600  ba
+  601  cd /usr/share/backgrounds/
+  602  cd
+  603  cd Downloads/wallpapers/
+  604  r
+  605  3c
+  606  clear
+  607  clear
+  608  3c
+  609  clear
+  610  p
+  611  clear
+  612  ll
+  613  cmatrix
+  614  clear
+  615  lll
+  616  clear
+  617  clear
+  618  clear
+  619  vim list.txt 
+  620  rm list.txt 
+  621  clear
+  622  cd .config/polybar/
+  623  vim get_spotify_status.sh
+  624  vim scroll_spotify_status.sh
+  625  clear
+  626  chmod +x *.sh
+  627  clear
+  628  p
+  629  cleaer
+  630  clear
+  631  p
+  632  clear
+  633  p
+  634  clear
+  635  p
+  636  cd .config/polybar/
+  637  vim get_spotify_status.sh 
+  638  cleaer
+  639  ls
+  640  history
+  641  history > history_file
